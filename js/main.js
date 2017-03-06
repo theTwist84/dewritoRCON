@@ -14,7 +14,6 @@ jQuery(function() {
                 //alert('Enter key pressed.');
                 dewRcon.send(jQuery("#rconCommand").val());
                 jQuery("#rconCommand").val("");
-                curCommand++;
                 break;
             default:
                 break;
